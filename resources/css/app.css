@@ -28,7 +28,7 @@ p {
     margin-bottom: 15px;
 }
 /* Bloco com imagem e parágrafo centralizados */
-.blocoTexto {
+.container {
     text-align: center;
     margin: 30px auto;
 }
