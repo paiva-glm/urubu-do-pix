@@ -34,7 +34,7 @@ p {
 }
 
 /* Imagem centralizada dentro do bloco */
-.blocoTexto img {
+.container img {
     display: block;
     margin: 0 auto 15px auto;
     max-width: 100%;
@@ -42,7 +42,7 @@ p {
 }
 
 /* Parágrafo centralizado */
-.blocoTexto p {
+.container p {
     margin: 15px auto 0 auto;
     font-size: 18px;
     color: #333;
