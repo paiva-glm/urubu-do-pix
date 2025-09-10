@@ -86,6 +86,35 @@ img {
   100% { box-shadow: 0 0 6px 3px rgb(0, 153, 255); }
 }
 
+/* RGB TEXT*/
+.rgb-text {
+  animation: rgbTextShadow 800ms infinite linear;
+}
+
+@keyframes rgbTextShadow {
+  0%   { text-shadow: 0px 0px 5px rgb(255, 0, 0); }        /* vermelho */
+  5%   { text-shadow: 0px 0px 5px rgb(255, 32, 0); }
+  10%  { text-shadow: 0px 0px 5px rgb(255, 64, 0); }       /* laranja avermelhado */
+  15%  { text-shadow: 0px 0px 5px rgb(255, 96, 0); }
+  20%  { text-shadow: 0px 0px 5px rgb(255, 128, 0); }      /* laranja */
+  25%  { text-shadow: 0px 0px 5px rgb(255, 160, 0); }
+  30%  { text-shadow: 0px 0px 5px rgb(255, 191, 0); }      /* amarelo-alaranjado */
+  35%  { text-shadow: 0px 0px 5px rgb(255, 223, 0); }
+  40%  { text-shadow: 0px 0px 5px rgb(255, 255, 0); }      /* amarelo */
+  45%  { text-shadow: 0px 0px 5px rgb(128, 255, 0); }      /* verde-limão */
+  50%  { text-shadow: 0px 0px 5px rgb(0, 255, 0); }        /* verde */
+  55%  { text-shadow: 0px 0px 5px rgb(0, 255, 64); }
+  60%  { text-shadow: 0px 0px 5px rgb(0, 255, 128); }      /* verde-água */
+  65%  { text-shadow: 0px 0px 5px rgb(0, 255, 191); }
+  70%  { text-shadow: 0px 0px 5px rgb(0, 255, 255); }      /* ciano */
+  75%  { text-shadow: 0px 0px 5px rgb(0, 191, 255); }
+  80%  { text-shadow: 0px 0px 5px rgb(0, 128, 255); }      /* azul claro */
+  85%  { text-shadow: 0px 0px 5px rgb(0, 64, 255); }
+  90%  { text-shadow: 0px 0px 5px rgb(0, 0, 255); }        /* azul */
+  95%  { text-shadow: 0px 0px 5px rgb(128, 0, 255); }      /* roxo */
+  100% { text-shadow: 0px 0px 5px rgb(255, 0, 0); }     /* volta ao vermelho */
+}
+
 /* Tabelas */
 table {
     width: 100%;
