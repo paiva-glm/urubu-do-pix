@@ -11,13 +11,13 @@ body {
     font-size: 16px;
     line-height: 1.6;
     color: #333;
-    background-color: #f5f5f5;
+    background-color: #1d1d1d;
     padding: 20px;
 }
 
 /* Cabeçalhos */
 h1, h2, h3, h4, h5, h6 {
-    color: #222;
+    color: #dddddd;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -44,8 +44,8 @@ p {
 .container p {
     margin: 15px auto 0 auto;
     font-size: 18px;
-    color: #333;
-    max-width: 1000px;
+    color: #b6b5b5;
+    max-width: 800px;
 }
 
 /* Links */
