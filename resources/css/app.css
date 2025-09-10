@@ -75,6 +75,15 @@ img {
     margin-bottom: 15px;
     display: block;
     margin: 0 auto;
+    /* box-shadow: 0px 0px 6px 3px rgba(56,227,255,0.96); */
+    animation: rgbShadow 3s infinite linear;
+}
+
+@keyframes rgbShadow {
+  0%   { box-shadow: 0 0 6px 3px rgb(0, 153, 255); }
+  33%  { box-shadow: 0 0 6px 3px rgb(0, 26, 255); }
+  66%  { box-shadow: 0 0 6px 3px rgb(17, 0, 255); }
+  100% { box-shadow: 0 0 6px 3px rgb(0, 153, 255); }
 }
 
 /* Tabelas */
@@ -106,6 +115,7 @@ button, input[type="submit"] {
 
 button:hover, input[type="submit"]:hover {
     background-color: #0056b3;
+    animation: rgbShadow 3s infinite linear;
 }
 
 /* Campos de formulário */
