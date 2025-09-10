@@ -9,7 +9,7 @@
 <body>
 
     <header>
-        <h1>Precisa de dinheiro fácil? chama o urubu do pix!</h1>
+        <h1 style="font-size: 50px;">Precisa de dinheiro fácil? chama o urubu do pix!</h1>
     </header>
 
     <main>
