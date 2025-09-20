@@ -183,3 +183,28 @@ footer {
 .audio-off i {
   color: red;
 }
+
+/*Roleta*/
+
+.roleta {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border: 5px solid #333;
+    border-radius: 50%;
+    background: conic-gradient(
+        from -9deg,
+        #f44336 0deg 36deg,
+        #4caf50 36deg 72deg,
+        #2196f3 72deg 108deg,
+        #ffeb3b 108deg 144deg,
+        #00bcd4 144deg 180deg,
+        #9c27b0 180deg 216deg,
+        #9e9e9e 216deg 252deg,
+        #ff9800 252deg 288deg,
+        #3f51b5 288deg 324deg,
+        #212121 324deg 360deg
+    );
+    transform: rotate(0deg);
+    transition: transform 4s cubic-bezier(.14,.86,.36,1);
+}

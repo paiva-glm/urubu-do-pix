@@ -4,6 +4,6 @@
 
 @section('content_body')
 
-<div class="urubu"></div>
+<div></div>
 
 @endsection

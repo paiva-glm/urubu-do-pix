@@ -7,6 +7,7 @@
     <link rel="icon" href="https://www.shutterstock.com/shutterstock/photos/2372798331/display_1500/stock-vector-vector-illustration-of-vulture-silhouette-2372798331.jpg">
     <title>@yield('title', 'Minha Aplicação')</title>
     @vite('resources/css/app.css')
+    @vite('resources/js/app.js')
 </head>
 <body>
 
