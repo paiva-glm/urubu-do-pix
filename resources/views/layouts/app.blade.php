@@ -21,6 +21,7 @@
 
     <footer>
         <p>&copy; 2025 - Todos os direitos reservados. Urubu enterprise LTDA.</p>
+        <strong>Version 0.2.0</strong>
     </footer>
 
 </body>
