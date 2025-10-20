@@ -208,3 +208,12 @@ footer {
     transform: rotate(0deg);
     transition: transform 4s cubic-bezier(.14,.86,.36,1);
 }
+iframe {
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

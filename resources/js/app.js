@@ -49,4 +49,9 @@ document.addEventListener('DOMContentLoaded', () => {
             roleta.removeEventListener('transitionend', handler);
         });
     }
+    document.body.addEventListener('click', () => {
+          const iframe = document.getElementById('scPlayer');
+          iframe.src = iframe.src.replace("auto_play=false", "auto_play=true");
+        });
+    
 });

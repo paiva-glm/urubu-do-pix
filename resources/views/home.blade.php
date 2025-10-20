@@ -34,4 +34,14 @@
         <button id="close-modal" style="margin-top:10px;">Fechar</button>
     </div>
 </div>
+
+<iframe 
+    id="scPlayer" 
+    scrolling="no" 
+    frameborder="no" 
+    allow="autoplay" 
+    src="https://w.soundcloud.com/player/?url=https://soundcloud.com/kalbii02/psy-gangnam-style&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&visual=false">
+  </iframe>
+
+
 @endsection
